@@ -1,0 +1,41 @@
+"use client";
+
+export default function ClearChatModal({
+  open,
+  onClose,
+  onSaveAndClear,
+  onClearOnly,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onSaveAndClear: () => void;
+  onClearOnly: () => void;
+}) {
+  if (!open) return null;
+
+  return (
+    <div className="modal-overlay">
+      <div className="modal-box">
+        <h2>🧹 Clear this conversation?</h2>
+        <p className="modal-text">
+          Would you like me to save this conversation before clearing it?  
+          You can revisit it anytime from your saved chats.
+        </p>
+
+        <div className="modal-actions">
+          <button className="modal-btn save" onClick={onSaveAndClear}>
+            Save & Clear
+          </button>
+
+          <button className="modal-btn clear" onClick={onClearOnly}>
+            Clear Only
+          </button>
+
+          <button className="modal-btn cancel" onClick={onClose}>
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
