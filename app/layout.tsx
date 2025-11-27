@@ -3,7 +3,7 @@ import "./globals.css";
 import React from "react";
 
 export const metadata = {
-  title: "pragya",
+  title: "pragya.ai",
   description: "Mental health companion",
 };
 
