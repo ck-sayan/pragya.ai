@@ -3,8 +3,8 @@ import "./globals.css";
 import React from "react";
 
 export const metadata = {
-  title: "pragya.ai",
-  description: "Mental health companion",
+  title: "Pragya",
+  description: "AI Mental health companion",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
