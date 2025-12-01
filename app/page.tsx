@@ -228,11 +228,14 @@ export default function Home() {
     return (
       <>
         <Navbar onOpenDashboard={openDashboard} />
-        <div className="flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Pragya.AI</h1>
-          <p className="text-xl text-gray-600 mb-8">Your AI companion for venting, ranting, and emotional support.</p>
-          <p className="text-lg">Please sign in to start chatting.</p>
-        </div>
+        <main className="main-wrapper">
+          <Header />
+          <div style={{ textAlign: 'center', padding: '2rem', maxWidth: '600px', margin: '0 auto' }}>
+            <p style={{ fontSize: '1.2rem', color: 'var(--text-secondary-color)', marginTop: '2rem' }}>
+              Please sign in to start chatting.
+            </p>
+          </div>
+        </main>
       </>
     );
   }
