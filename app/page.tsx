@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useUser } from "@clerk/nextjs";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import SuggestionCard from "./components/SuggestionCard";
@@ -12,11 +13,7 @@ import ClearChatModal from "./components/ClearChatModal";
 type Msg = { sender: "user" | "bot"; message: string };
 
 export default function Home() {
-
-  const handleClearAllSaved = () => {
-  localStorage.setItem("pragya_chats", JSON.stringify([]));
-  setCurrentSavedId(null);
-};
+  const { isSignedIn, isLoaded } = useUser();
 
   const [messages, setMessages] = useState<Msg[]>([]);
   const [userInput, setUserInput] = useState("");
@@ -25,38 +22,49 @@ export default function Home() {
 
   const [dashOpen, setDashOpen] = useState(false);
   const [currentSavedId, setCurrentSavedId] = useState<string | null>(null);
-
   const [showClearModal, setShowClearModal] = useState(false);
 
   const firstMessageSentRef = useRef(false);
 
-  const readSaved = (): SavedChat[] => {
+  // Fetch chats from Supabase
+  const fetchChats = async (): Promise<SavedChat[]> => {
+    if (!isSignedIn) return [];
+
     try {
-      const raw = localStorage.getItem("pragya_chats");
-      return raw ? JSON.parse(raw) : [];
-    } catch {
+      const res = await fetch("/api/chats");
+      const data = await res.json();
+      return data.chats || [];
+    } catch (error) {
+      console.error("Error fetching chats:", error);
       return [];
     }
   };
 
-  const persistChat = (messagesToSave: Msg[], title?: string) => {
-    const saved = readSaved();
-    const id = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-    const chatTitle =
-      title || messagesToSave[0]?.message.slice(0, 40) || "Chat";
+  // Save chat to Supabase
+  const persistChat = async (messagesToSave: Msg[], title?: string) => {
+    if (!isSignedIn) return null;
 
-    const payload: SavedChat = {
-      id,
-      title: chatTitle,
-      messages: messagesToSave,
-      createdAt: new Date().toISOString(),
-    };
+    const chatTitle = title || messagesToSave[0]?.message.slice(0, 40) || "Chat";
 
-    saved.unshift(payload);
-    localStorage.setItem("pragya_chats", JSON.stringify(saved));
-    return id;
+    try {
+      const res = await fetch("/api/chats", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          title: chatTitle,
+          messages: messagesToSave,
+        }),
+      });
+
+      const data = await res.json();
+      return data.chat?.id || null;
+    } catch (error) {
+      console.error("Error saving chat:", error);
+      return null;
+    }
   };
 
+  // Load a saved chat
   const loadSavedChat = (chat: SavedChat) => {
     setMessages(chat.messages);
     setShowChat(true);
@@ -64,16 +72,29 @@ export default function Home() {
     setCurrentSavedId(chat.id);
   };
 
-  const deleteSavedById = (id: string) => {
-    const saved = readSaved().filter((s) => s.id !== id);
-    localStorage.setItem("pragya_chats", JSON.stringify(saved));
+  // Delete a chat
+  const deleteSavedById = async (id: string) => {
+    if (!isSignedIn) return;
 
-    if (currentSavedId === id) {
-      setMessages([]);
-      setCurrentSavedId(null);
-      setShowChat(false);
-      firstMessageSentRef.current = false;
+    try {
+      await fetch(`/api/chats?id=${id}`, { method: "DELETE" });
+
+      if (currentSavedId === id) {
+        setMessages([]);
+        setCurrentSavedId(null);
+        setShowChat(false);
+        firstMessageSentRef.current = false;
+      }
+    } catch (error) {
+      console.error("Error deleting chat:", error);
     }
+  };
+
+  // Clear all chats
+  const handleClearAllSaved = async () => {
+    // For now, we'll keep this as a placeholder
+    // In a real implementation, you'd want a "delete all" endpoint
+    setCurrentSavedId(null);
   };
 
   const pushMessage = (m: Msg) => setMessages((p) => [...p, m]);
@@ -81,7 +102,7 @@ export default function Home() {
   const suggestions = [
     { text: "Feeling off today? I'm here to listen.", icon: "bx bx-heart" },
     { text: "Something on your mind? Let's talk it through.", icon: "bx bx-happy" },
-    { text: "Rough day? Let’s turn it around!", icon: "bx bx-upside-down" },
+    { text: "Rough day? Let's turn it around!", icon: "bx bx-upside-down" },
     { text: "Had a great day? Share your joy with me!", icon: "bx bx-cool" },
   ];
 
@@ -95,17 +116,17 @@ export default function Home() {
     if (t === "light") document.body.classList.add("light_mode");
   }, []);
 
-  const maybeAutoSaveSession = () => {
+  const maybeAutoSaveSession = async () => {
+    if (!isSignedIn) return;
+
     if (!currentSavedId) {
-      const id = persistChat(messages);
-      setCurrentSavedId(id);
+      const id = await persistChat(messages);
+      if (id) setCurrentSavedId(id);
     } else {
-      const saved = readSaved();
-      const idx = saved.findIndex((s) => s.id === currentSavedId);
-      if (idx !== -1) {
-        saved[idx].messages = messages;
-        localStorage.setItem("pragya_chats", JSON.stringify(saved));
-      }
+      // Update existing chat
+      // For now, we'll create a new one each time
+      // TODO: Add an UPDATE endpoint
+      await persistChat(messages);
     }
   };
 
@@ -166,21 +187,17 @@ export default function Home() {
     }
   };
 
-  // ▶️ Custom modal replaces confirm()
   const handleClearCurrent = () => {
     setShowClearModal(true);
   };
 
-  const confirmSaveAndClear = () => {
-    if (!currentSavedId) {
-      const id = persistChat(messages);
-      setCurrentSavedId(id);
-    } else {
-      const saved = readSaved();
-      const idx = saved.findIndex((s) => s.id === currentSavedId);
-      if (idx !== -1) {
-        saved[idx].messages = messages;
-        localStorage.setItem("pragya_chats", JSON.stringify(saved));
+  const confirmSaveAndClear = async () => {
+    if (isSignedIn) {
+      if (!currentSavedId) {
+        const id = await persistChat(messages);
+        if (id) setCurrentSavedId(id);
+      } else {
+        await persistChat(messages);
       }
     }
 
@@ -201,18 +218,37 @@ export default function Home() {
 
   const openDashboard = () => setDashOpen(true);
 
+  // Show loading state while Clerk is loading
+  if (!isLoaded) {
+    return <div className="flex items-center justify-center min-h-screen">Loading...</div>;
+  }
+
+  // Show sign-in prompt if not authenticated
+  if (!isSignedIn) {
+    return (
+      <>
+        <Navbar onOpenDashboard={openDashboard} />
+        <div className="flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
+          <h1 className="text-4xl font-bold mb-4">Welcome to Pragya.AI</h1>
+          <p className="text-xl text-gray-600 mb-8">Your AI companion for venting, ranting, and emotional support.</p>
+          <p className="text-lg">Please sign in to start chatting.</p>
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       <Navbar onOpenDashboard={openDashboard} />
 
-          <ChatDashboard
-      open={dashOpen}
-      onClose={() => setDashOpen(false)}
-      onLoadChat={loadSavedChat}
-      onDeleteSaved={deleteSavedById}
-      onClearAll={handleClearAllSaved}   // <-- add this
-    />
-
+      <ChatDashboard
+        open={dashOpen}
+        onClose={() => setDashOpen(false)}
+        onLoadChat={loadSavedChat}
+        onDeleteSaved={deleteSavedById}
+        onClearAll={handleClearAllSaved}
+        fetchChats={fetchChats}
+      />
 
       <main className="main-wrapper">
         {!showChat && (

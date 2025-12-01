@@ -16,6 +16,7 @@ interface Props {
   onLoadChat: (chat: SavedChat) => void;
   onDeleteSaved: (id: string) => void;
   onClearAll: () => void;
+  fetchChats: () => Promise<SavedChat[]>;
 }
 
 export default function ChatDashboard({
@@ -24,16 +25,21 @@ export default function ChatDashboard({
   onLoadChat,
   onDeleteSaved,
   onClearAll,
+  fetchChats,
 }: Props) {
   const [saved, setSaved] = useState<SavedChat[]>([]);
+  const [loading, setLoading] = useState(false);
 
   // load saved chats when sidebar opens
   useEffect(() => {
     if (open) {
-      const raw = localStorage.getItem("pragya_chats");
-      setSaved(raw ? JSON.parse(raw) : []);
+      setLoading(true);
+      fetchChats().then((chats) => {
+        setSaved(chats);
+        setLoading(false);
+      });
     }
-  }, [open]);
+  }, [open, fetchChats]);
 
   const handleLoad = (chat: SavedChat) => {
     onLoadChat(chat);
@@ -49,12 +55,10 @@ export default function ChatDashboard({
   };
 
   // clear all saved chats (keeps a confirm for safety)
-  // NOTE: this calls the parent callback (onClearAll) so the page can react
   const handleClearAll = () => {
     const yes = confirm("Clear ALL saved chats? This cannot be undone.");
     if (!yes) return;
 
-    localStorage.setItem("pragya_chats", JSON.stringify([]));
     setSaved([]);
     onClearAll();
   };
@@ -75,7 +79,9 @@ export default function ChatDashboard({
 
       {/* List area: grows and scrolls */}
       <div className="chat-dashboard__list" role="list">
-        {saved.length === 0 ? (
+        {loading ? (
+          <p className="muted">Loading chats...</p>
+        ) : saved.length === 0 ? (
           <p className="muted">No saved chats yet.</p>
         ) : (
           saved.map((c) => (

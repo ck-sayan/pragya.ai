@@ -1,24 +1,31 @@
-// app/layout.tsx
+import type { Metadata } from "next";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
-import React from "react";
+import 'boxicons/css/boxicons.min.css';
+import { ClerkProvider } from '@clerk/nextjs'
 
-export const metadata = {
-  title: "Pragya",
-  description: "AI Mental health companion",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Pragya.AI - Your AI Companion",
+  description: "A compassionate AI friend for venting, ranting, and emotional support.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html lang="en">
-      <head>
-        <link
-          href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-          rel="stylesheet"
-        />
-      </head>
-      <body>
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={`${openSans.variable} antialiased`}>
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

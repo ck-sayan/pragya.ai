@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { UserButton, SignInButton, SignedIn, SignedOut } from "@clerk/nextjs";
 
 interface NavbarProps {
   onOpenDashboard?: () => void;
@@ -28,6 +29,17 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
       <h2 className="navbar__logo">Pragya.AI</h2>
 
       <div style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}>
+        <SignedIn>
+          <UserButton afterSignOutUrl="/" />
+        </SignedIn>
+        <SignedOut>
+          <SignInButton mode="modal">
+            <button className="navbar__button" style={{ fontSize: '1rem', padding: '0.5rem 1rem' }}>
+              Sign In
+            </button>
+          </SignInButton>
+        </SignedOut>
+
         <button
           className="navbar__button"
           aria-label="Open saved chats"
