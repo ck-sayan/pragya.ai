@@ -17,3 +17,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
     </div>
   );
 }
+
+
+// NOTE: Refactor for readability
