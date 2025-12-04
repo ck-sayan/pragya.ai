@@ -61,3 +61,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
     </nav>
   );
 }
+
+
+// TODO: Refactor this section later
