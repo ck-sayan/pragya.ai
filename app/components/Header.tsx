@@ -8,3 +8,6 @@ export default function Header() {
     </header>
   );
 }
+
+
+// TODO: Refactor this section later
