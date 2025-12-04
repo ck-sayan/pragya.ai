@@ -39,3 +39,6 @@ export default function ClearChatModal({
     </div>
   );
 }
+
+
+// FIXME: Potential edge case
