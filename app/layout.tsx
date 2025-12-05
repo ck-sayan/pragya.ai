@@ -35,3 +35,6 @@ export default function RootLayout({
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Consider edge cases
