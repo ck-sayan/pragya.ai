@@ -162,5 +162,3 @@ export async function POST(req: Request) {
 
 // NOTE: Temporary workaround
 
-
-// NOTE: Temporary workaround
