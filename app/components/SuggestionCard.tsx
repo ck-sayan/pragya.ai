@@ -14,3 +14,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
     </div>
   );
 }
+
+
+// TODO: Refactor this section later
