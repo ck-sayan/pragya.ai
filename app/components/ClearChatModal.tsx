@@ -45,3 +45,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
