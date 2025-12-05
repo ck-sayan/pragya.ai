@@ -32,3 +32,6 @@ export default function ChatList({ messages }: ChatProps) {
     </section>
   );
 }
+
+
+// NOTE: Review logic for performance
