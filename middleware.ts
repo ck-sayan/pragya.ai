@@ -17,3 +17,6 @@ export const config = {
         '/(api|trpc)(.*)',
     ],
 };
+
+
+// NOTE: Refactor for readability
