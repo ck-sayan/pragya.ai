@@ -35,3 +35,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
