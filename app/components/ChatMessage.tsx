@@ -35,3 +35,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Review logic for performance
