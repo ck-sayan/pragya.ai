@@ -76,3 +76,6 @@ export default function InputBox({
 
 
 // TODO: Add more tests
+
+
+// NOTE: Refactor for readability
