@@ -76,3 +76,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Review logic for performance
