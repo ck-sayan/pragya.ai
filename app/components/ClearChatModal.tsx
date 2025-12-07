@@ -57,3 +57,6 @@ export default function ClearChatModal({
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
