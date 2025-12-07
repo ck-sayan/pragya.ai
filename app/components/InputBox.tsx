@@ -79,3 +79,6 @@ export default function InputBox({
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Consider edge cases
