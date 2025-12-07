@@ -41,3 +41,6 @@ export default function RootLayout({
 
 
 // TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
