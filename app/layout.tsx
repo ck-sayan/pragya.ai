@@ -29,3 +29,27 @@ export default function RootLayout({
     </ClerkProvider>
   );
 }
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
+
+
+// FIXME: Memory leak potential

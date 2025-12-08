@@ -17,3 +17,33 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
     </div>
   );
 }
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Add more tests
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Consider edge cases
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Review logic for performance

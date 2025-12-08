@@ -70,3 +70,24 @@ export default function InputBox({
     </div>
   );
 }
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add more tests
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Refactor this section later

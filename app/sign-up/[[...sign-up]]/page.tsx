@@ -7,3 +7,24 @@ export default function Page() {
         </div>
     );
 }
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Add more tests
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add more tests
+
+
+// TODO: Cleanup legacy code

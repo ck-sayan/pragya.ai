@@ -126,3 +126,36 @@ export default function ChatDashboard({
     </aside>
   );
 }
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Potential edge case
+
+
+// FIXME: Potential edge case
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add more tests
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Refactor for readability

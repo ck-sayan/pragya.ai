@@ -6,3 +6,15 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+
+// NOTE: Temporary workaround
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Add more tests
+
+
+// TODO: Add documentation

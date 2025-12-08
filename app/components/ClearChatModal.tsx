@@ -39,3 +39,30 @@ export default function ClearChatModal({
     </div>
   );
 }
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Add documentation
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
+
+
+// TODO: Cleanup legacy code

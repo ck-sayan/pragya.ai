@@ -132,3 +132,21 @@ export async function DELETE(req: Request) {
         return NextResponse.json({ error: "Failed to delete chat" }, { status: 500 });
     }
 }
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add more tests
+
+
+// FIXME: Potential edge case

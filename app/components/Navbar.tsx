@@ -61,3 +61,36 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
     </nav>
   );
 }
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Consider edge cases
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Update dependency usage
+
+
+// NOTE: Consider edge cases

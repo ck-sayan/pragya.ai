@@ -32,3 +32,30 @@ export default function ChatList({ messages }: ChatProps) {
     </section>
   );
 }
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Temporary workaround
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Update dependency usage

@@ -14,3 +14,15 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
     </div>
   );
 }
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Cleanup legacy code
