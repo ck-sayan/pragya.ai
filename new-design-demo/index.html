@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragya.AI - Exact Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- ========================================
+         LEFT SIDEBAR (72px wide, fixed position)
+         Contains: Logo, Plus button, Nav items
+         EDIT: Change icons, labels, add/remove items
+         ======================================== -->
+    <aside class="left-sidebar">
+
+        <!-- LOGO ICON (Top of sidebar) -->
+        <!-- EDIT: Change icon class to use different icon -->
+        <div class="logo-icon">
+            <i class='bx bxl-product-hunt'></i>
+        </div>
+
+        <!-- PLUS BUTTON (New chat/action) -->
+        <!-- EDIT: Change icon or remove if not needed -->
+        <button class="plus-btn">
+            <i class='bx bx-plus'></i>
+        </button>
+
+        <!-- NAVIGATION ITEM 1: Home -->
+        <!-- EDIT: Change icon, label, or remove entire div -->
+        <div class="nav-item">
+            <i class='bx bx-home'></i>
+            <span class="nav-label">Home</span>
+        </div>
+
+        <!-- NAVIGATION ITEM 2: Discover -->
+        <!-- EDIT: Change icon, label, or remove entire div -->
+        <div class="nav-item">
+            <i class='bx bx-compass'></i>
+            <span class="nav-label">Discover</span>
+        </div>
+
+        <!-- NAVIGATION ITEM 3: Spaces -->
+        <!-- EDIT: Change icon, label, or remove entire div -->
+        <div class="nav-item">
+            <i class='bx bx-grid-alt'></i>
+            <span class="nav-label">Spaces</span>
+        </div>
+
+        <!-- NAVIGATION ITEM 4: Finance -->
+        <!-- EDIT: Change icon, label, or remove entire div -->
+        <div class="nav-item">
+            <i class='bx bx-dollar-circle'></i>
+            <span class="nav-label">Finance</span>
+        </div>
+
+    </aside>
+
+    <!-- ========================================
+         MAIN CONTENT AREA (Center section)
+         Contains: Premium badge, Heading, Search, Info
+         EDIT: Modify text, remove sections as needed
+         ======================================== -->
+    <main class="main-content">
+
+        <!-- PREMIUM BADGE (Top center, floating) -->
+        <!-- EDIT: Change text or remove entire div -->
+        <div class="premium-badge">
+            <span class="free-plan">Free plan</span>
+            <span class="dash">—</span>
+            <a href="#" class="upgrade-link">Upgrade</a>
+        </div>
+
+        <!-- MAIN HEADING (Large greeting text) -->
+        <!-- EDIT: Change decorative icon, heading text -->
+        <div class="main-heading">
+            <span class="decorative-icon">✱</span>
+            <h1>Hello, night owl</h1>
+        </div>
+
+        <!-- SEARCH SECTION (Input field with controls) -->
+        <!-- EDIT: Modify placeholder, buttons, model name -->
+        <div class="search-section">
+            <div class="search-input-field">
+
+                <!-- LEFT ICONS (Plus and Clock icons) -->
+                <!-- EDIT: Change icons or remove -->
+                <div class="left-icons">
+                    <button class="icon-btn">
+                        <i class='bx bx-plus'></i>
+                    </button>
+                    <div class="divider"></div>
+                    <button class="icon-btn">
+                        <i class='bx bx-time'></i>
+                    </button>
+                </div>
+
+                <!-- TEXT INPUT (Main search/message input) -->
+                <!-- EDIT: Change placeholder text -->
+                <input type="text" placeholder="Ask anything..." class="text-input">
+
+                <!-- RIGHT CONTROLS (Model selector + Send button) -->
+                <!-- EDIT: Change model name, button icon -->
+                <div class="right-controls">
+                    <button class="model-selector">
+                        <span>Sonnet 4.5</span>
+                        <i class='bx bx-chevron-down'></i>
+                    </button>
+                    <button class="submit-btn">
+                        <i class='bx bx-send'></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- INFORMATION SECTION (Upgrade prompt + service icons) -->
+        <!-- EDIT: Change text, icons, or remove entire section -->
+        <div class="info-section">
+            <p class="info-text">Upgrade to connect your tools to Claude</p>
+            <div class="connected-services">
+                <i class='bx bxl-google service-icon'></i>
+                <i class='bx bx-right-arrow-alt arrow-icon'></i>
+                <i class='bx bxl-slack service-icon'></i>
+                <i class='bx bx-right-arrow-alt arrow-icon'></i>
+                <i class='bx bxl-dropbox service-icon'></i>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ========================================
+         RIGHT SIDEBAR (304px wide, fixed position)
+         Contains: Auth panel with sign-in options
+         EDIT: Modify titles, button text, remove options
+         ======================================== -->
+    <aside class="right-sidebar">
+
+        <!-- CLOSE BUTTON (Top right corner) -->
+        <!-- EDIT: Change icon or remove -->
+        <button class="close-btn">
+            <i class='bx bx-x'></i>
+        </button>
+
+        <!-- AUTH LOGO -->
+        <!-- EDIT: Change icon -->
+        <div class="auth-logo">
+            <i class='bx bxl-product-hunt'></i>
+        </div>
+
+        <!-- TITLE & SUBTITLE -->
+        <!-- EDIT: Change text content -->
+        <h2 class="auth-title">Sign in or create an account</h2>
+        <p class="auth-subtitle">Unlock Pro Search and History</p>
+
+        <!-- GOOGLE SIGN-IN BUTTON -->
+        <!-- EDIT: Change text, icon, or remove -->
+        <button class="google-btn">
+            <i class='bx bxl-google'></i>
+            <span>Continue with Google</span>
+        </button>
+
+        <!-- APPLE SIGN-IN BUTTON -->
+        <!-- EDIT: Change text, icon, or remove -->
+        <button class="apple-btn">
+            <i class='bx bxl-apple'></i>
+            <span>Continue with Apple</span>
+        </button>
+
+        <!-- EMAIL INPUT FIELD -->
+        <!-- EDIT: Change placeholder text -->
+        <input type="email" placeholder="Email address" class="email-input">
+
+        <!-- CONTINUE WITH EMAIL BUTTON (Disabled) -->
+        <!-- EDIT: Change text or remove disabled attribute -->
+        <button class="email-btn" disabled>Continue with email</button>
+
+        <!-- SSO LINK -->
+        <!-- EDIT: Change text or remove -->
+        <a href="#" class="sso-link">Single sign-on (SSO)</a>
+
+    </aside>
+
+</body>
+
+</html>

@@ -1,0 +1,630 @@
+/* ==========================================
+   RESET & BASE STYLES
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    max-height: 600px;
+    background: #f5f5f5;
+    /* EDIT: Main background color */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+}
+
+
+/* ==========================================
+   LEFT SIDEBAR STYLES
+   EDIT: Width, colors, spacing
+   ========================================== */
+.left-sidebar {
+    position: fixed;
+    left: 0;
+    width: 72px;
+    /* EDIT: Sidebar width */
+    max-height: 600px;
+    background: #f0f0f0;
+    /* EDIT: Sidebar background */
+    border-right: 1px solid #e0e0e0;
+    /* EDIT: Border color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    /* EDIT: Top padding */
+    padding-bottom: 16px;
+    gap: 0;
+    z-index: 100;
+}
+
+/* Logo Icon (Top of sidebar) */
+.logo-icon {
+    width: 36px;
+    /* EDIT: Logo size */
+    height: 36px;
+    margin-bottom: 32px;
+    /* EDIT: Space below logo */
+    color: #4a90a4;
+    /* EDIT: Logo color */
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Plus Button */
+.plus-btn {
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    /* EDIT: Icon size */
+    color: #999;
+    /* EDIT: Icon color */
+    cursor: pointer;
+    margin-bottom: 24px;
+    /* EDIT: Space below button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Items (Home, Discover, etc.) */
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    /* EDIT: Space between icon and label */
+    margin-bottom: 32px;
+    /* EDIT: Space between nav items */
+    cursor: pointer;
+}
+
+.nav-item i {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    /* EDIT: Icon size */
+    color: #666;
+    /* EDIT: Icon color */
+}
+
+.nav-label {
+    font-size: 11px;
+    /* EDIT: Label text size */
+    font-weight: 500;
+    color: #666;
+    /* EDIT: Label text color */
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+
+
+/* ==========================================
+   MAIN CONTENT AREA STYLES
+   EDIT: Layout, spacing, alignment
+   ========================================== */
+.main-content {
+    margin-left: 72px;
+    /* EDIT: Must match sidebar width */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    background: #fafafa;
+    /* EDIT: Content background */
+    position: relative;
+}
+
+/* Premium Badge (Top center floating) */
+.premium-badge {
+    position: absolute;
+    top: 20px;
+    /* EDIT: Distance from top */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background: #efefef;
+    /* EDIT: Badge background */
+    padding: 6px 12px;
+    /* EDIT: Badge padding */
+    border-radius: 20px;
+    /* EDIT: Badge roundness */
+    z-index: 10;
+}
+
+.free-plan {
+    font-size: 12px;
+    /* EDIT: Text size */
+    font-weight: 400;
+    color: #666;
+    /* EDIT: Text color */
+    letter-spacing: 0.2px;
+}
+
+.dash {
+    color: #999;
+    /* EDIT: Separator color */
+    margin: 0 4px;
+}
+
+.upgrade-link {
+    font-size: 12px;
+    font-weight: 400;
+    color: #0066cc;
+    /* EDIT: Link color */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Main Heading (Large greeting) */
+.main-heading {
+    margin-top: 80px;
+    /* EDIT: Distance from top */
+    margin-bottom: 48px;
+    /* EDIT: Space below heading */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* EDIT: Space between icon and text */
+    justify-content: center;
+}
+
+.decorative-icon {
+    font-size: 32px;
+    /* EDIT: Decorative icon size */
+    color: #ff9966;
+    /* EDIT: Icon color (coral) */
+    font-weight: 700;
+}
+
+.main-heading h1 {
+    font-size: 52px;
+    /* EDIT: Heading text size */
+    font-weight: 400;
+    color: #333;
+    /* EDIT: Heading text color */
+    font-family: Georgia, serif;
+    /* EDIT: Heading font */
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+
+
+/* ==========================================
+   SEARCH SECTION STYLES
+   EDIT: Input size, colors, button styles
+   ========================================== */
+.search-section {
+    width: 100%;
+    max-width: 720px;
+    /* EDIT: Max width of search area */
+    padding: 0 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.search-input-field {
+    width: 100%;
+    height: 52px;
+    /* EDIT: Input field height */
+    display: flex;
+    align-items: center;
+    background: white;
+    /* EDIT: Input background */
+    border: 1px solid #d0d0d0;
+    /* EDIT: Border color */
+    border-radius: 12px;
+    /* EDIT: Corner roundness */
+    padding: 0 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    /* EDIT: Shadow */
+    transition: all 0.2s ease;
+}
+
+/* Left Icons (Plus, Clock) */
+.left-icons {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    height: 20px;
+    margin-right: 12px;
+}
+
+.icon-btn {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    /* EDIT: Icon size */
+    color: #999;
+    /* EDIT: Icon color */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background: #ddd;
+    /* EDIT: Divider color */
+    margin: 0 8px;
+}
+
+/* Text Input Field */
+.text-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    /* EDIT: Input text size */
+    font-weight: 400;
+    color: #333;
+    /* EDIT: Input text color */
+    outline: none;
+}
+
+.text-input::placeholder {
+    color: #999;
+    /* EDIT: Placeholder color */
+}
+
+/* Right Controls (Model selector + Send button) */
+.right-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 12px;
+}
+
+.model-selector {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    /* EDIT: Model text size */
+    font-weight: 500;
+    color: #666;
+    /* EDIT: Model text color */
+    padding: 6px 8px;
+    border-radius: 6px;
+    transition: background 0.15s ease;
+}
+
+.model-selector:hover {
+    background: #f5f5f5;
+    /* EDIT: Hover background */
+}
+
+.submit-btn {
+    width: 40px;
+    /* EDIT: Button size */
+    height: 40px;
+    background: #ff9966;
+    /* EDIT: Button color (coral) */
+    border: none;
+    border-radius: 8px;
+    /* EDIT: Button roundness */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    /* EDIT: Icon size */
+    transition: background 0.2s ease;
+}
+
+.submit-btn:hover {
+    background: #ff8855;
+    /* EDIT: Hover color */
+}
+
+
+/* ==========================================
+   INFORMATION SECTION STYLES
+   EDIT: Text, icon colors
+   ========================================== */
+.info-section {
+    width: 100%;
+    max-width: 720px;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-text {
+    font-size: 13px;
+    /* EDIT: Text size */
+    font-weight: 400;
+    color: #666;
+    /* EDIT: Text color */
+    letter-spacing: 0.2px;
+}
+
+.connected-services {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* EDIT: Space between icons */
+    justify-content: center;
+}
+
+.service-icon {
+    width: 24px;
+    height: 24px;
+    font-size: 20px;
+    /* EDIT: Icon size */
+    color: #999;
+    /* EDIT: Icon color */
+}
+
+.arrow-icon {
+    font-size: 18px;
+    /* EDIT: Arrow size */
+    color: #ccc;
+    /* EDIT: Arrow color */
+}
+
+
+/* ==========================================
+   RIGHT SIDEBAR / AUTH PANEL STYLES
+   EDIT: Width, colors, button styles
+   ========================================== */
+.right-sidebar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 304px;
+    /* EDIT: Sidebar width */
+    max-height: 600px;
+    background: white;
+    /* EDIT: Sidebar background */
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    /* EDIT: Border color */
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    /* EDIT: Shadow */
+    padding: 32px 24px;
+    /* EDIT: Internal padding */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 101;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    /* EDIT: Icon size */
+    color: #999;
+    /* EDIT: Icon color */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Auth Logo */
+.auth-logo {
+    width: 32px;
+    height: 32px;
+    font-size: 28px;
+    /* EDIT: Logo size */
+    color: #4a90a4;
+    /* EDIT: Logo color */
+    margin-bottom: 24px;
+}
+
+/* Auth Title */
+.auth-title {
+    font-size: 16px;
+    /* EDIT: Title size */
+    font-weight: 600;
+    color: #222;
+    /* EDIT: Title color */
+    letter-spacing: -0.3px;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Auth Subtitle */
+.auth-subtitle {
+    font-size: 13px;
+    /* EDIT: Subtitle size */
+    font-weight: 400;
+    color: #999;
+    /* EDIT: Subtitle color */
+    letter-spacing: 0.1px;
+    margin-bottom: 32px;
+}
+
+/* Google Sign-In Button */
+.google-btn {
+    width: 100%;
+    height: 44px;
+    /* EDIT: Button height */
+    background: #2d8a8a;
+    /* EDIT: Button color (teal) */
+    border: none;
+    border-radius: 8px;
+    /* EDIT: Button roundness */
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    transition: background 0.2s ease;
+}
+
+.google-btn:hover {
+    background: #247171;
+    /* EDIT: Hover color */
+}
+
+/* Apple Sign-In Button */
+.apple-btn {
+    width: 100%;
+    height: 44px;
+    background: #f5f5f5;
+    /* EDIT: Button background */
+    border: 1px solid #e0e0e0;
+    /* EDIT: Border color */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    /* EDIT: Text color */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    transition: background 0.2s ease;
+}
+
+.apple-btn:hover {
+    background: #efefef;
+    /* EDIT: Hover background */
+}
+
+/* Email Input */
+.email-input {
+    width: 100%;
+    height: 44px;
+    background: #f5f5f5;
+    /* EDIT: Input background */
+    border: 1px solid #e0e0e0;
+    /* EDIT: Border color */
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    outline: none;
+    margin-bottom: 12px;
+    transition: border 0.2s ease;
+}
+
+.email-input::placeholder {
+    color: #bbb;
+    /* EDIT: Placeholder color */
+}
+
+.email-input:focus {
+    border-color: #999;
+    /* EDIT: Focus border color */
+}
+
+/* Continue with Email Button (Disabled) */
+.email-btn {
+    width: 100%;
+    height: 44px;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    /* EDIT: Disabled text color */
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+/* SSO Link */
+.sso-link {
+    font-size: 12px;
+    font-weight: 400;
+    color: #0066cc;
+    /* EDIT: Link color */
+    text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    transition: color 0.2s ease;
+    display: block;
+}
+
+.sso-link:hover {
+    color: #0052a3;
+    /* EDIT: Hover color */
+}
+
+
+/* ==========================================
+   RESPONSIVE STYLES
+   EDIT: Breakpoints, mobile sizes
+   ========================================== */
+@media (max-width: 1024px) {
+    .right-sidebar {
+        width: 280px;
+        /* EDIT: Tablet sidebar width */
+    }
+
+    .search-section {
+        max-width: 600px;
+        /* EDIT: Tablet search width */
+    }
+
+    .main-heading h1 {
+        font-size: 44px;
+        /* EDIT: Tablet heading size */
+    }
+}
+
+@media (max-width: 768px) {
+    .left-sidebar {
+        width: 60px;
+        /* EDIT: Mobile sidebar width */
+    }
+
+    .main-content {
+        margin-left: 60px;
+        /* EDIT: Must match mobile sidebar width */
+    }
+
+    .search-section {
+        max-width: calc(100% - 48px);
+        padding: 0 16px;
+    }
+
+    .main-heading h1 {
+        font-size: 36px;
+        /* EDIT: Mobile heading size */
+    }
+}
