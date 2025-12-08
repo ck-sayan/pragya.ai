@@ -88,3 +88,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Update dependency usage
