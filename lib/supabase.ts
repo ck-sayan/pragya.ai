@@ -43,3 +43,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
