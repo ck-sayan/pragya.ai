@@ -69,3 +69,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
