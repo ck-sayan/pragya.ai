@@ -32,3 +32,6 @@ export const config = {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Add documentation
