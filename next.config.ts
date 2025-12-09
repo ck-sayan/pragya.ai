@@ -21,3 +21,6 @@ export default nextConfig;
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
