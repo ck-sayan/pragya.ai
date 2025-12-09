@@ -10,3 +10,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
         persistSession: false
     }
 })
+
+
+// TODO: Refactor this section later
