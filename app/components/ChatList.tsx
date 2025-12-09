@@ -65,3 +65,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Review logic for performance
