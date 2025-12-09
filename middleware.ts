@@ -44,3 +44,6 @@ export const config = {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
