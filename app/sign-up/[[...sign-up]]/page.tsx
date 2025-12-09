@@ -31,3 +31,6 @@ export default function Page() {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
