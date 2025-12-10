@@ -100,3 +100,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
