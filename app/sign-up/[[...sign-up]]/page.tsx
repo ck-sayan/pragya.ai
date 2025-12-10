@@ -49,3 +49,6 @@ export default function Page() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
