@@ -56,3 +56,6 @@ export const config = {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
