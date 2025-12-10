@@ -50,3 +50,6 @@ export default function Header() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Temporary workaround
