@@ -58,3 +58,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Review logic for performance
