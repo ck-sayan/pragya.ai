@@ -22,3 +22,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Improve error handling
