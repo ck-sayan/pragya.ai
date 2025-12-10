@@ -100,3 +100,6 @@ export default function InputBox({
 
 
 // TODO: Add documentation
+
+
+// TODO: Refactor this section later
