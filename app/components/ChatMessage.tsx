@@ -62,3 +62,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Add more tests
+
+
+// TODO: Refactor this section later
