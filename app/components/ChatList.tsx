@@ -77,3 +77,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Review logic for performance
