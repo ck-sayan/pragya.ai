@@ -45,3 +45,6 @@ export default nextConfig;
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
