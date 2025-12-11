@@ -53,3 +53,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Refactor for readability
