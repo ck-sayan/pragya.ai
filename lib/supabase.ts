@@ -76,3 +76,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add documentation
+
+
+// FIXME: Potential edge case
