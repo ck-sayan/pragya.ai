@@ -118,3 +118,6 @@ export default function InputBox({
 
 
 // TODO: Add more tests
+
+
+// NOTE: Temporary workaround
