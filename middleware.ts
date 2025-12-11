@@ -62,3 +62,6 @@ export const config = {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
