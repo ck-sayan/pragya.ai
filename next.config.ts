@@ -51,3 +51,6 @@ export default nextConfig;
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
