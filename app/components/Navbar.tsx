@@ -130,3 +130,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
