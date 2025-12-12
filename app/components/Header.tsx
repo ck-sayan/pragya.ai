@@ -71,3 +71,6 @@ export default function Header() {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
