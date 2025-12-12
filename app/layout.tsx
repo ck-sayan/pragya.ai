@@ -65,3 +65,6 @@ export default function RootLayout({
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
