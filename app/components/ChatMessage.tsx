@@ -86,3 +86,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Optimization needed here
