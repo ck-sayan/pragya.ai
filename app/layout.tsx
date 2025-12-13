@@ -77,3 +77,6 @@ export default function RootLayout({
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Consider edge cases
