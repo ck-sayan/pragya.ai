@@ -77,3 +77,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Temporary workaround
+
+
+// FIXME: Memory leak potential
