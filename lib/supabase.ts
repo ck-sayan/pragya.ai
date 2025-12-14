@@ -103,3 +103,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Optimization needed here
