@@ -110,3 +110,6 @@ export const config = {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
