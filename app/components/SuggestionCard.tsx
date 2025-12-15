@@ -113,3 +113,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Optimization needed here
