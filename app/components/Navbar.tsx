@@ -160,3 +160,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// TODO: Refactor this section later
