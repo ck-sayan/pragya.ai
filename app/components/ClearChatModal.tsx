@@ -138,3 +138,6 @@ export default function ClearChatModal({
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
