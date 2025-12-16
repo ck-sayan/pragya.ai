@@ -116,3 +116,6 @@ export default function Header() {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Refactor for readability
