@@ -175,3 +175,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
