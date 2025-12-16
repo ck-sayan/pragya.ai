@@ -94,3 +94,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
