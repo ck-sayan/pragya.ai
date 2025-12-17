@@ -127,3 +127,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
