@@ -128,3 +128,6 @@ export default function Header() {
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Improve error handling
