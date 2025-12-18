@@ -134,3 +134,6 @@ export default function Header() {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
