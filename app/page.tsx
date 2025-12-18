@@ -403,3 +403,6 @@ export default function Home() {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Refactor for readability
