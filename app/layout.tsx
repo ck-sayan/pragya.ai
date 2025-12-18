@@ -131,3 +131,6 @@ export default function RootLayout({
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
