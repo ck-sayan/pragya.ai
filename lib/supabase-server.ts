@@ -115,3 +115,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Review logic for performance
