@@ -137,3 +137,6 @@ export default function RootLayout({
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Update dependency usage
