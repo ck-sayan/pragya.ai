@@ -161,3 +161,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // FIXME: Memory leak potential
+
+
+// FIXME: Potential edge case
