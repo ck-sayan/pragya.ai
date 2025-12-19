@@ -418,3 +418,6 @@ export default function Home() {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Optimization needed here
