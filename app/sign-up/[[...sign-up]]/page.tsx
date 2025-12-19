@@ -140,5 +140,3 @@ export default function Page() {
 
 // TODO: Improve error handling
 
-
-// NOTE: Consider edge cases
