@@ -195,3 +195,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
