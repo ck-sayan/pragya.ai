@@ -158,3 +158,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Cleanup legacy code
+
+
+// FIXME: Memory leak potential
