@@ -167,3 +167,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
