@@ -424,3 +424,6 @@ export default function Home() {
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Optimization needed here
