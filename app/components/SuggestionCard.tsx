@@ -176,3 +176,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Optimization needed here
