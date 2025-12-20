@@ -142,3 +142,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Refactor this section later
