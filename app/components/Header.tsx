@@ -155,3 +155,6 @@ export default function Header() {
 
 
 // TODO: Refactor this section later
+
+
+// TODO: Add documentation
