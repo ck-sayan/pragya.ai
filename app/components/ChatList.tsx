@@ -161,3 +161,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Temporary workaround
+
+
+// TODO: Improve error handling
