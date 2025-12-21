@@ -123,3 +123,6 @@ export default nextConfig;
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
