@@ -126,3 +126,6 @@ export default nextConfig;
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Memory leak potential
