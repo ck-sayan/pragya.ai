@@ -185,3 +185,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
