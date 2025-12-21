@@ -148,3 +148,6 @@ export default function Page() {
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Review logic for performance
