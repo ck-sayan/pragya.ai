@@ -241,3 +241,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Add documentation
+
+
+// TODO: Update dependency usage
