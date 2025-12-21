@@ -148,3 +148,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Add more tests
+
+
+// TODO: Improve error handling
