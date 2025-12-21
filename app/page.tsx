@@ -433,3 +433,6 @@ export default function Home() {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Review logic for performance
