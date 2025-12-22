@@ -161,3 +161,6 @@ export default function Header() {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
