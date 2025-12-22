@@ -170,3 +170,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
