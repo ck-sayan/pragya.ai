@@ -193,3 +193,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add documentation
+
+
+// NOTE: Review logic for performance
