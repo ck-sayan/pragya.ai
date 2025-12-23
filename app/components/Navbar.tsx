@@ -247,3 +247,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
