@@ -191,3 +191,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Add more tests
+
+
+// TODO: Improve error handling
