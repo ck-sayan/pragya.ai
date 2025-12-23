@@ -179,3 +179,6 @@ export default function RootLayout({
 
 
 // TODO: Add more tests
+
+
+// NOTE: Optimization needed here
