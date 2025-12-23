@@ -215,3 +215,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Review logic for performance
+
+
+// TODO: Cleanup legacy code
