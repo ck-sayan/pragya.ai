@@ -231,5 +231,3 @@ export const config = {
 
 // TODO: Add documentation
 
-
-// NOTE: Optimization needed here
