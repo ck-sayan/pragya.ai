@@ -202,3 +202,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability
