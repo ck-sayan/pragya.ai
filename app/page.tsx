@@ -445,3 +445,6 @@ export default function Home() {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Review logic for performance
