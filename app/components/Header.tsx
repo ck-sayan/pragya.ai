@@ -173,3 +173,6 @@ export default function Header() {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Consider edge cases
