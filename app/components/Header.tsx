@@ -176,3 +176,6 @@ export default function Header() {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Improve error handling
