@@ -203,3 +203,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
