@@ -478,3 +478,6 @@ export default function Home() {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
