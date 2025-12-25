@@ -213,5 +213,3 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 // FIXME: Memory leak potential
 
-
-// NOTE: Temporary workaround
