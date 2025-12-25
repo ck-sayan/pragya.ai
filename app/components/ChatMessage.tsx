@@ -215,3 +215,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
