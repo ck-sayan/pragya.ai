@@ -242,3 +242,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Add documentation
+
+
+// FIXME: Potential edge case
