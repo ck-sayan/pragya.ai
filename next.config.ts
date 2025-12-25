@@ -177,3 +177,6 @@ export default nextConfig;
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
