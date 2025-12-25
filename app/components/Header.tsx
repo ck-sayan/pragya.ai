@@ -185,3 +185,6 @@ export default function Header() {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
