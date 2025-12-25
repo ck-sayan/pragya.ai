@@ -247,3 +247,6 @@ export default function InputBox({
 
 
 // TODO: Add more tests
+
+
+// TODO: Improve error handling
