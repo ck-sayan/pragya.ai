@@ -333,3 +333,6 @@ export async function DELETE(req: Request) {
 
 
 // TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
