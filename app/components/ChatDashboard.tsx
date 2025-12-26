@@ -388,5 +388,3 @@ export default function ChatDashboard({
 
 // TODO: Add more tests
 
-
-// TODO: Cleanup legacy code
