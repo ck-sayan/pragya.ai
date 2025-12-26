@@ -209,5 +209,3 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 // NOTE: Optimization needed here
 
-
-// FIXME: Potential edge case
