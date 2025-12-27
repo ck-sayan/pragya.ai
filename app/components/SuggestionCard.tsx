@@ -263,3 +263,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Update dependency usage
+
+
+// TODO: Improve error handling
