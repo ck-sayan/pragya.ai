@@ -289,3 +289,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Temporary workaround
+
+
+// TODO: Add documentation
