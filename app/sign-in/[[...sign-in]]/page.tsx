@@ -274,3 +274,6 @@ export default function Page() {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
