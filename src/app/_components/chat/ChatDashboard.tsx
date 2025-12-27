@@ -153,3 +153,234 @@ export default function ChatDashboard({
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Update dependency usage
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add documentation
+
+
+// TODO: Add documentation
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add more tests
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Improve error handling
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Add documentation
+
+
+// NOTE: Consider edge cases
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add more tests
+
+
+// FIXME: Memory leak potential
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add more tests
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add documentation
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add documentation
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add documentation
+
+
+// TODO: Add more tests
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Consider edge cases
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
+
+
+// FIXME: Memory leak potential
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add documentation
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add documentation
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add documentation
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add more tests
+
+
+// NOTE: Review logic for performance

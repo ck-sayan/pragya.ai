@@ -10,3 +10,216 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
         persistSession: false
     }
 })
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Improve error handling
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add documentation
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add documentation
+
+
+// TODO: Add more tests
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add more tests
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Improve error handling
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Update dependency usage
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add more tests
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add documentation
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add more tests
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add documentation
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add more tests
+
+
+// NOTE: Consider edge cases
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add documentation
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Improve error handling
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability

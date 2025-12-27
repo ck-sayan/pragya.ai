@@ -46,3 +46,192 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Improve error handling
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Add more tests
+
+
+// TODO: Refactor this section later
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Add more tests
+
+
+// NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add more tests
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Improve error handling
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add more tests
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Add documentation
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add more tests
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add more tests
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Add more tests
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Add documentation
+
+
+// TODO: Add documentation
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Add more tests
+
+
+// TODO: Add more tests
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
+
+
+// FIXME: Potential edge case
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add documentation
+
+
+// NOTE: Optimization needed here
+
+
+// FIXME: Potential edge case
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Add more tests
+
+
+// TODO: Update dependency usage

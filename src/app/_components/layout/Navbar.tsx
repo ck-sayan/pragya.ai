@@ -94,3 +94,198 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
+
+
+// TODO: Improve error handling
+
+
+// TODO: Add documentation
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Refactor this section later
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
+
+
+// TODO: Add documentation
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Update dependency usage
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Add documentation
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Update dependency usage
+
+
+// NOTE: Temporary workaround
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
+
+
+// TODO: Improve error handling
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Review logic for performance
+
+
+// TODO: Improve error handling
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Add more tests
+
+
+// FIXME: Memory leak potential
+
+
+// TODO: Add documentation
+
+
+// TODO: Add documentation
+
+
+// TODO: Update dependency usage
+
+
+// TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
+
+
+// TODO: Cleanup legacy code
+
+
+// FIXME: Potential edge case
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Add more tests
+
+
+// NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
+
+
+// NOTE: Temporary workaround
