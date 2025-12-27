@@ -484,3 +484,6 @@ export default function Home() {
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability
