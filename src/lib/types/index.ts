@@ -40,3 +40,6 @@ export interface Message {
     message: string;
     created_at: string;
 }
+
+
+// NOTE: Optimization needed here
