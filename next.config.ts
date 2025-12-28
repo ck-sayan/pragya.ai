@@ -210,3 +210,6 @@ export default nextConfig;
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Refactor for readability
