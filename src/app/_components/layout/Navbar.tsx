@@ -296,3 +296,5 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 // TODO: Refactor this section later
 
+
+// NOTE: Consider edge cases
