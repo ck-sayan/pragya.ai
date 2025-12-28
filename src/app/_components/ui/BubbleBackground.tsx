@@ -229,3 +229,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
