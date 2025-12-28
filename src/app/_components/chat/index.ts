@@ -12,3 +12,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Add more tests
+
+
+// TODO: Cleanup legacy code
