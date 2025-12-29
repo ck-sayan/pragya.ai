@@ -274,3 +274,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Update dependency usage
+
+
+// TODO: Refactor this section later
