@@ -213,3 +213,6 @@ export default nextConfig;
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Review logic for performance
