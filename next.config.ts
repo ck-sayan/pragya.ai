@@ -222,3 +222,6 @@ export default nextConfig;
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
