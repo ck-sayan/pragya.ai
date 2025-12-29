@@ -19,3 +19,6 @@ export default function Page() {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
