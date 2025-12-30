@@ -280,3 +280,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add more tests
+
+
+// NOTE: Optimization needed here
