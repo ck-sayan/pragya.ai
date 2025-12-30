@@ -24,3 +24,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
