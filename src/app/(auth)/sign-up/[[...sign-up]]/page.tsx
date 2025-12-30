@@ -35,5 +35,3 @@ export default function Page() {
 
 // TODO: Add documentation
 
-
-// TODO: Add more tests
