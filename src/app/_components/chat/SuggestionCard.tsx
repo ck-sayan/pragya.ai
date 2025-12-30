@@ -284,3 +284,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Add more tests
+
+
+// NOTE: Temporary workaround
