@@ -237,3 +237,6 @@ export default nextConfig;
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Refactor this section later
