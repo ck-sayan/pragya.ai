@@ -70,3 +70,6 @@ export interface Message {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
