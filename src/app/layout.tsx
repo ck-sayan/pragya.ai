@@ -254,3 +254,6 @@ export default function RootLayout({
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
