@@ -287,3 +287,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Temporary workaround
