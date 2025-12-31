@@ -242,3 +242,6 @@ export default function RootLayout({
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Temporary workaround
