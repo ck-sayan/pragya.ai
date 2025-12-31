@@ -36,5 +36,3 @@ export { cn } from './cn';
 
 // TODO: Improve error handling
 
-
-// TODO: Add more tests
