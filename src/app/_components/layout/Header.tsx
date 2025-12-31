@@ -239,3 +239,6 @@ export default function Header() {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
