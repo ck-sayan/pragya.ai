@@ -23,3 +23,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Update dependency usage
