@@ -256,3 +256,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Add documentation
+
+
+// TODO: Refactor this section later
