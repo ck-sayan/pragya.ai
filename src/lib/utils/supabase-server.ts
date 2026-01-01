@@ -265,3 +265,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Temporary workaround
