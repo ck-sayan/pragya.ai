@@ -257,3 +257,6 @@ export default function RootLayout({
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Cleanup legacy code
