@@ -260,3 +260,6 @@ export default function RootLayout({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
