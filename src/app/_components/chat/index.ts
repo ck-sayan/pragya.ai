@@ -36,3 +36,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Temporary workaround
