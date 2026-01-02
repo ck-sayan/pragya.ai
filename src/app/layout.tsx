@@ -263,3 +263,6 @@ export default function RootLayout({
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Memory leak potential
