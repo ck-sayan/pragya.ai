@@ -50,3 +50,5 @@ export function cn(...inputs: ClassValue[]) {
 
 // TODO: Update dependency usage
 
+
+// NOTE: Refactor for readability
