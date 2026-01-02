@@ -299,3 +299,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Consider edge cases
