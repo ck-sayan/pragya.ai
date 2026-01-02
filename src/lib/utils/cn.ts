@@ -52,3 +52,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
