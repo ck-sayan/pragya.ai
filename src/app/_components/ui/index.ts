@@ -24,3 +24,6 @@ export { default as ClearChatModal } from './ClearChatModal';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
