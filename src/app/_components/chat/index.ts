@@ -42,3 +42,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
