@@ -274,5 +274,3 @@ export default nextConfig;
 
 // TODO: Update dependency usage
 
-
-// TODO: Improve error handling
