@@ -349,3 +349,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Refactor for readability
