@@ -274,3 +274,5 @@ export default nextConfig;
 
 // TODO: Update dependency usage
 
+
+// NOTE: Review logic for performance
