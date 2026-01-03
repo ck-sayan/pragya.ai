@@ -303,3 +303,6 @@ export default function ClearChatModal({
 
 
 // TODO: Cleanup legacy code
+
+
+// TODO: Add documentation
