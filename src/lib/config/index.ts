@@ -32,3 +32,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Review logic for performance
