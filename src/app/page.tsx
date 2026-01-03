@@ -538,3 +538,6 @@ export default function Home() {
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Temporary workaround
