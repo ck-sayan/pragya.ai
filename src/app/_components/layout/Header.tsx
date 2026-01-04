@@ -260,3 +260,6 @@ export default function Header() {
 
 
 // NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
