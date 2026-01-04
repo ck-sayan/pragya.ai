@@ -279,3 +279,6 @@ export default nextConfig;
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Add documentation
