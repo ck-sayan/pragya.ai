@@ -269,3 +269,6 @@ export default function Header() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
