@@ -78,3 +78,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Refactor for readability
