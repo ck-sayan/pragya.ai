@@ -75,3 +75,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
