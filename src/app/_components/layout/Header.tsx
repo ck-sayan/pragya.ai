@@ -263,3 +263,6 @@ export default function Header() {
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Consider edge cases
