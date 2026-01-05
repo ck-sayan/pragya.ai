@@ -315,3 +315,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
