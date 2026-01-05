@@ -544,3 +544,6 @@ export default function Home() {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
