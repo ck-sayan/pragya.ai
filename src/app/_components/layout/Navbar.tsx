@@ -370,3 +370,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Add more tests
+
+
+// TODO: Update dependency usage
