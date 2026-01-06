@@ -275,3 +275,6 @@ export default function Header() {
 
 
 // TODO: Add more tests
+
+
+// TODO: Refactor this section later
