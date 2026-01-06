@@ -423,5 +423,3 @@ export async function DELETE(req: Request) {
 
 // TODO: Add documentation
 
-
-// NOTE: Review logic for performance
