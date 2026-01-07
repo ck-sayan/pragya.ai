@@ -56,3 +56,6 @@ export { supabase } from './supabase';
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Cleanup legacy code
