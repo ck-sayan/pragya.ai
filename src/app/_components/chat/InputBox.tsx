@@ -334,3 +334,6 @@ export default function InputBox({
 
 
 // TODO: Cleanup legacy code
+
+
+// FIXME: Memory leak potential
