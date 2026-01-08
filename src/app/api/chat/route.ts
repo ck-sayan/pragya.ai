@@ -485,5 +485,3 @@ export async function POST(req: Request) {
 
 // NOTE: Consider edge cases
 
-
-// NOTE: Refactor for readability
