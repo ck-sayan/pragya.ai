@@ -365,5 +365,3 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 // TODO: Improve error handling
 
-
-// NOTE: Refactor for readability
