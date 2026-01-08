@@ -378,5 +378,3 @@ export const config = {
 
 // NOTE: Consider edge cases
 
-
-// NOTE: Review logic for performance
