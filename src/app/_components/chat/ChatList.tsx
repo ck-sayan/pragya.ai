@@ -325,3 +325,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Temporary workaround
