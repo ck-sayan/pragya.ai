@@ -65,3 +65,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
