@@ -112,3 +112,6 @@ export default function Page() {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
