@@ -293,5 +293,3 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 // TODO: Cleanup legacy code
 
-
-// NOTE: Temporary workaround
