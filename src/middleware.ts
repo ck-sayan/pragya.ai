@@ -378,3 +378,5 @@ export const config = {
 
 // NOTE: Consider edge cases
 
+
+// NOTE: Refactor for readability
