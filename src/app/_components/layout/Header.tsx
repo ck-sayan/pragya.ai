@@ -287,3 +287,6 @@ export default function Header() {
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Consider edge cases
