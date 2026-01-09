@@ -290,3 +290,6 @@ export default function Header() {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Cleanup legacy code
