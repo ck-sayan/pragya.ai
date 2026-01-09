@@ -352,3 +352,6 @@ export default function InputBox({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
