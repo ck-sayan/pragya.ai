@@ -71,3 +71,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Review logic for performance
