@@ -394,3 +394,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
