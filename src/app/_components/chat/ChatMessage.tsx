@@ -335,5 +335,3 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 // FIXME: Memory leak potential
 
-
-// FIXME: Potential edge case
