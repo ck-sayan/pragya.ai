@@ -388,3 +388,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Add more tests
+
+
+// TODO: Refactor this section later
