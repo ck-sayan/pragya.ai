@@ -368,3 +368,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
