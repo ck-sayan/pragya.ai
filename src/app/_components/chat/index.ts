@@ -108,3 +108,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Add more tests
+
+
+// FIXME: Memory leak potential
