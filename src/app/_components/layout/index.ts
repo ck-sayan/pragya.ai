@@ -111,3 +111,6 @@ export { default as Navbar } from './Navbar';
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
