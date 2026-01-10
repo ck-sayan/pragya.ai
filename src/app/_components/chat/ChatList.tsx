@@ -328,3 +328,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Optimization needed here
