@@ -344,3 +344,6 @@ export default function RootLayout({
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Add documentation
