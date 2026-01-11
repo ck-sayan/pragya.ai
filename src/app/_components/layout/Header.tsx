@@ -308,3 +308,6 @@ export default function Header() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
