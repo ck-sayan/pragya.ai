@@ -304,3 +304,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // NOTE: Temporary workaround
+
+
+// FIXME: Memory leak potential
