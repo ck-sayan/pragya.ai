@@ -342,3 +342,6 @@ export default nextConfig;
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Add documentation
