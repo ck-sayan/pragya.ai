@@ -336,3 +336,6 @@ export default nextConfig;
 
 
 // TODO: Add more tests
+
+
+// NOTE: Optimization needed here
