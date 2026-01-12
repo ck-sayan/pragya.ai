@@ -95,3 +95,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
