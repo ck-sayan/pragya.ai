@@ -123,3 +123,6 @@ export { default as Navbar } from './Navbar';
 
 
 // TODO: Add more tests
+
+
+// NOTE: Optimization needed here
