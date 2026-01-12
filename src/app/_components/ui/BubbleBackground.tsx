@@ -316,3 +316,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
