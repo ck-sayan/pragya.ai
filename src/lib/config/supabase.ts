@@ -391,3 +391,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
