@@ -323,3 +323,6 @@ export default function Header() {
 
 
 // NOTE: Temporary workaround
+
+
+// TODO: Cleanup legacy code
