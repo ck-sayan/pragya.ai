@@ -121,3 +121,6 @@ export interface Message {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
