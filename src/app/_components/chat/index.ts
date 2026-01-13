@@ -138,3 +138,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
