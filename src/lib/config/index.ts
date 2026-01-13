@@ -113,3 +113,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
