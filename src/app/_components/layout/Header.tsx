@@ -326,3 +326,6 @@ export default function Header() {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Temporary workaround
