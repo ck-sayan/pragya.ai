@@ -329,3 +329,6 @@ export default function Header() {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Optimization needed here
