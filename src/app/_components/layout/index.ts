@@ -126,3 +126,6 @@ export { default as Navbar } from './Navbar';
 
 
 // NOTE: Optimization needed here
+
+
+// FIXME: Memory leak potential
