@@ -127,3 +127,6 @@ export interface Message {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Refactor for readability
