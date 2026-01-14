@@ -507,3 +507,6 @@ export default function ChatDashboard({
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
