@@ -428,3 +428,6 @@ export const config = {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Review logic for performance
