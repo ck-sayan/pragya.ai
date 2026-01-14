@@ -343,3 +343,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// TODO: Improve error handling
