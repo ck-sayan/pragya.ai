@@ -157,3 +157,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
