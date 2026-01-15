@@ -397,3 +397,6 @@ export default function InputBox({
 
 
 // FIXME: Potential edge case
+
+
+// TODO: Cleanup legacy code
