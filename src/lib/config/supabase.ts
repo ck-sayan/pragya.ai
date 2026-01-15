@@ -409,3 +409,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Add documentation
+
+
+// FIXME: Memory leak potential
