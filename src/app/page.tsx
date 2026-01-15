@@ -613,3 +613,6 @@ export default function Home() {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
