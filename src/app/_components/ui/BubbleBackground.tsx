@@ -331,3 +331,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
