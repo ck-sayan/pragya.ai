@@ -400,3 +400,6 @@ export default function InputBox({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
