@@ -341,5 +341,3 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 // TODO: Update dependency usage
 
-
-// FIXME: Potential edge case
