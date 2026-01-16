@@ -359,3 +359,6 @@ export default function RootLayout({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
