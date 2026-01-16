@@ -343,3 +343,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
