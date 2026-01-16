@@ -358,3 +358,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Consider edge cases
