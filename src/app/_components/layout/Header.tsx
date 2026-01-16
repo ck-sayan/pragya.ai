@@ -353,3 +353,6 @@ export default function Header() {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
