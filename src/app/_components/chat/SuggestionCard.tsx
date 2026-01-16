@@ -401,3 +401,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Refactor this section later
+
+
+// TODO: Cleanup legacy code
