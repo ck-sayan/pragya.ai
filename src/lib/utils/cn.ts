@@ -178,3 +178,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
