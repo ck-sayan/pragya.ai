@@ -373,3 +373,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// FIXME: Memory leak potential
