@@ -364,3 +364,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Review logic for performance
+
+
+// TODO: Refactor this section later
