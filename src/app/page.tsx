@@ -623,5 +623,3 @@ export default function Home() {
 
 // TODO: Add documentation
 
-
-// NOTE: Temporary workaround
