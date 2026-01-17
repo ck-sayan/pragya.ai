@@ -162,3 +162,6 @@ export { default as Navbar } from './Navbar';
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
