@@ -408,3 +408,6 @@ export default function ClearChatModal({
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Cleanup legacy code
