@@ -623,3 +623,5 @@ export default function Home() {
 
 // TODO: Add documentation
 
+
+// NOTE: Review logic for performance
