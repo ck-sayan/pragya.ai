@@ -378,3 +378,6 @@ export default nextConfig;
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Add documentation
