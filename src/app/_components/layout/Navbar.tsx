@@ -454,3 +454,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Refactor for readability
