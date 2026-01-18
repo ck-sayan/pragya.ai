@@ -388,3 +388,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
