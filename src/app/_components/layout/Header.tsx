@@ -368,3 +368,6 @@ export default function Header() {
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Potential edge case
