@@ -155,3 +155,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
