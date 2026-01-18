@@ -428,5 +428,3 @@ export default function InputBox({
 
 // TODO: Update dependency usage
 
-
-// TODO: Improve error handling
