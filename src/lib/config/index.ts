@@ -158,3 +158,6 @@ export { supabase } from './supabase';
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Review logic for performance
