@@ -386,3 +386,6 @@ export default function RootLayout({
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
