@@ -178,5 +178,3 @@ export { default as Navbar } from './Navbar';
 
 // TODO: Add documentation
 
-
-// TODO: Cleanup legacy code
