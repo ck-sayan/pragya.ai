@@ -383,3 +383,6 @@ export default function RootLayout({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Consider edge cases
