@@ -170,3 +170,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Temporary workaround
