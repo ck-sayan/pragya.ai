@@ -180,3 +180,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Optimization needed here
