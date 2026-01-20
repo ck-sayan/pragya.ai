@@ -634,3 +634,6 @@ export default function Home() {
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
