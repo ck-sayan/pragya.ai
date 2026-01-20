@@ -392,3 +392,6 @@ export default function RootLayout({
 
 
 // TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
