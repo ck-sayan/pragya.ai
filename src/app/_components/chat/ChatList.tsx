@@ -397,3 +397,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Add more tests
+
+
+// TODO: Cleanup legacy code
