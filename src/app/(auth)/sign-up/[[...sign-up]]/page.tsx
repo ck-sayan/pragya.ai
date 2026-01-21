@@ -211,3 +211,6 @@ export default function Page() {
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
