@@ -185,3 +185,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
