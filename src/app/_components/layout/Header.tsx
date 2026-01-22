@@ -398,3 +398,6 @@ export default function Header() {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Refactor for readability
