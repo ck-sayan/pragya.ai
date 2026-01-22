@@ -462,3 +462,6 @@ export default function ClearChatModal({
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
