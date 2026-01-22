@@ -197,3 +197,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Improve error handling
+
+
+// TODO: Add more tests
