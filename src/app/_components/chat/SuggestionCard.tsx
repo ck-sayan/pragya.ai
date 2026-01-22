@@ -464,3 +464,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
