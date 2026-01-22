@@ -460,3 +460,6 @@ export default function InputBox({
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Refactor for readability
