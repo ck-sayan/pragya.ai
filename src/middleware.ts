@@ -476,3 +476,6 @@ export const config = {
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Refactor for readability
