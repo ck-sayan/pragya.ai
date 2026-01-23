@@ -219,3 +219,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Review logic for performance
