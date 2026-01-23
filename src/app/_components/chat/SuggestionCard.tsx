@@ -470,3 +470,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Add more tests
