@@ -471,3 +471,6 @@ export default function ClearChatModal({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
