@@ -466,3 +466,6 @@ export default function InputBox({
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
