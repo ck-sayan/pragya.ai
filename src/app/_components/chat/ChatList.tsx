@@ -409,3 +409,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Improve error handling
