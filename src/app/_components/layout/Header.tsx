@@ -416,3 +416,6 @@ export default function Header() {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Consider edge cases
