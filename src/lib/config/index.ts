@@ -203,3 +203,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Update dependency usage
+
+
+// TODO: Improve error handling
