@@ -212,5 +212,3 @@ export interface Message {
 
 // FIXME: Memory leak potential
 
-
-// TODO: Add more tests
