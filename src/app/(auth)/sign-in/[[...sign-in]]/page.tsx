@@ -233,5 +233,3 @@ export default function Page() {
 
 // TODO: Cleanup legacy code
 
-
-// NOTE: Refactor for readability
