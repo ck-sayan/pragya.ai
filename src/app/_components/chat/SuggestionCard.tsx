@@ -503,3 +503,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Add documentation
