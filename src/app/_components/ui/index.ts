@@ -195,3 +195,6 @@ export { default as ClearChatModal } from './ClearChatModal';
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
