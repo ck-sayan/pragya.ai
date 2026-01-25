@@ -232,3 +232,6 @@ export default function Page() {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
