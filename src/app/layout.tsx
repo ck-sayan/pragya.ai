@@ -422,3 +422,6 @@ export default function RootLayout({
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Review logic for performance
