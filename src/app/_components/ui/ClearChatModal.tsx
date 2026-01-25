@@ -495,3 +495,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// TODO: Improve error handling
