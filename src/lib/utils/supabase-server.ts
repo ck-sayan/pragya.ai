@@ -436,3 +436,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
