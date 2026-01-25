@@ -249,3 +249,6 @@
 
 
 // TODO: Add documentation
+
+
+// NOTE: Temporary workaround
