@@ -685,3 +685,6 @@ export default function Home() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Optimization needed here
