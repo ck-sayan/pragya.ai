@@ -428,3 +428,6 @@ export default function RootLayout({
 
 
 // TODO: Improve error handling
+
+
+// TODO: Cleanup legacy code
