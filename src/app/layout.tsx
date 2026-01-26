@@ -431,3 +431,6 @@ export default function RootLayout({
 
 
 // TODO: Cleanup legacy code
+
+
+// FIXME: Memory leak potential
