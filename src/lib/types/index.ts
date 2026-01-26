@@ -217,3 +217,6 @@ export interface Message {
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Consider edge cases
