@@ -460,3 +460,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Consider edge cases
