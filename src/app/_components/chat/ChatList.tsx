@@ -436,3 +436,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Temporary workaround
