@@ -697,3 +697,6 @@ export default function Home() {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
