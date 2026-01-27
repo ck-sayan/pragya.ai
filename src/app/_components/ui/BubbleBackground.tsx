@@ -418,3 +418,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Optimization needed here
