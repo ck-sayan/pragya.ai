@@ -243,3 +243,6 @@ export { default as Navbar } from './Navbar';
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Refactor for readability
