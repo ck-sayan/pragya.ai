@@ -443,3 +443,6 @@ export default function Header() {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Review logic for performance
