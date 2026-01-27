@@ -437,3 +437,6 @@ export default function Header() {
 
 
 // NOTE: Temporary workaround
+
+
+// FIXME: Memory leak potential
