@@ -517,3 +517,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Add more tests
+
+
+// FIXME: Potential edge case
