@@ -433,3 +433,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Optimization needed here
