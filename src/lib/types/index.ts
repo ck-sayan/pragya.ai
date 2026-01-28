@@ -244,3 +244,6 @@ export interface Message {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Consider edge cases
