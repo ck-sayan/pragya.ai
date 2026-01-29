@@ -508,3 +508,6 @@ export default function InputBox({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
