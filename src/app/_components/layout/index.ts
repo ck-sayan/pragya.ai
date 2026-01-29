@@ -246,3 +246,6 @@ export { default as Navbar } from './Navbar';
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Add documentation
