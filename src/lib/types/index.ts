@@ -253,3 +253,6 @@ export interface Message {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
