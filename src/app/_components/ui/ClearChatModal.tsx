@@ -522,3 +522,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
