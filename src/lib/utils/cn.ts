@@ -265,3 +265,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Refactor for readability
