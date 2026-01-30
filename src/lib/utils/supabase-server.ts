@@ -469,3 +469,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
