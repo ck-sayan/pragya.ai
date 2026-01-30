@@ -514,3 +514,6 @@ export default function InputBox({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
