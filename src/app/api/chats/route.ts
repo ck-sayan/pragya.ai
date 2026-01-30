@@ -557,3 +557,6 @@ export async function DELETE(req: Request) {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
