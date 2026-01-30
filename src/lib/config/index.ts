@@ -242,3 +242,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Memory leak potential
+
+
+// FIXME: Potential edge case
