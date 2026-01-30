@@ -527,3 +527,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
