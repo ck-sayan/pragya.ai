@@ -248,3 +248,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add more tests
+
+
+// NOTE: Refactor for readability
