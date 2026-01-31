@@ -496,3 +496,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Add more tests
