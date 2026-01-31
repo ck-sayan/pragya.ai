@@ -457,3 +457,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Consider edge cases
