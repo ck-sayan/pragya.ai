@@ -473,3 +473,6 @@ export default function RootLayout({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Temporary workaround
