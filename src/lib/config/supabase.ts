@@ -514,3 +514,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Refactor for readability
