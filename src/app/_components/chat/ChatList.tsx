@@ -463,3 +463,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Optimization needed here
