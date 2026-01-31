@@ -501,3 +501,6 @@ export default nextConfig;
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Review logic for performance
