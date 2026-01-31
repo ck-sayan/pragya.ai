@@ -258,3 +258,6 @@ export { default as Navbar } from './Navbar';
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Review logic for performance
