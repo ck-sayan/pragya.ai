@@ -243,5 +243,3 @@ export { cn } from './cn';
 
 // TODO: Add documentation
 
-
-// TODO: Cleanup legacy code
