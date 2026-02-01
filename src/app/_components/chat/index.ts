@@ -270,3 +270,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
