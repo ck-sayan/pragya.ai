@@ -754,3 +754,6 @@ export default function Home() {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
