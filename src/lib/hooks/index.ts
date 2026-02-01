@@ -310,5 +310,3 @@
 
 // TODO: Add documentation
 
-
-// NOTE: Refactor for readability
