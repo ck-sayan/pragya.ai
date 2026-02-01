@@ -271,3 +271,6 @@ export interface Message {
 
 
 // TODO: Add more tests
+
+
+// TODO: Improve error handling
