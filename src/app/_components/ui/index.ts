@@ -262,5 +262,3 @@ export { default as ClearChatModal } from './ClearChatModal';
 
 // TODO: Improve error handling
 
-
-// TODO: Refactor this section later
