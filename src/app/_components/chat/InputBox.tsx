@@ -554,3 +554,5 @@ export default function InputBox({
 
 // NOTE: Temporary workaround
 
+
+// NOTE: Refactor for readability
