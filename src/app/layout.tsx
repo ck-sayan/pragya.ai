@@ -491,3 +491,6 @@ export default function RootLayout({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
