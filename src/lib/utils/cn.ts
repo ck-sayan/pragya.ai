@@ -308,5 +308,3 @@ export function cn(...inputs: ClassValue[]) {
 
 // TODO: Update dependency usage
 
-
-// NOTE: Temporary workaround
