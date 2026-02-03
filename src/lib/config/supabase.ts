@@ -547,3 +547,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Refactor for readability
+
+
+// NOTE: Temporary workaround
