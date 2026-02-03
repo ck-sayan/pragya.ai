@@ -280,3 +280,6 @@ export interface Message {
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
