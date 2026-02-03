@@ -484,3 +484,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
