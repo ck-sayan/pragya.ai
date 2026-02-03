@@ -505,3 +505,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Refactor this section later
+
+
+// TODO: Improve error handling
