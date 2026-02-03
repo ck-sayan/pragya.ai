@@ -266,3 +266,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Cleanup legacy code
