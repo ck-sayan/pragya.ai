@@ -571,3 +571,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Cleanup legacy code
