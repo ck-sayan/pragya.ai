@@ -290,3 +290,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Refactor this section later
+
+
+// NOTE: Refactor for readability
