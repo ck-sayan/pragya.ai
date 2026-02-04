@@ -485,3 +485,6 @@ export default function Header() {
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Temporary workaround
