@@ -490,3 +490,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Consider edge cases
