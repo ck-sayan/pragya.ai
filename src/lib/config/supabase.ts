@@ -556,3 +556,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Review logic for performance
