@@ -497,3 +497,6 @@ export default function Header() {
 
 
 // TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
