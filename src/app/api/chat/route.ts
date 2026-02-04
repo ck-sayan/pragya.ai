@@ -668,5 +668,3 @@ export async function POST(req: Request) {
 
 // NOTE: Review logic for performance
 
-
-// NOTE: Refactor for readability
