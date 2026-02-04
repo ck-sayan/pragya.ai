@@ -472,3 +472,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Improve error handling
+
+
+// TODO: Add documentation
