@@ -508,3 +508,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// FIXME: Memory leak potential
