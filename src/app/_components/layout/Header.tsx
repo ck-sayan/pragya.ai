@@ -503,3 +503,6 @@ export default function Header() {
 
 
 // NOTE: Optimization needed here
+
+
+// TODO: Improve error handling
