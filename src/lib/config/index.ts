@@ -308,3 +308,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Refactor this section later
+
+
+// TODO: Improve error handling
