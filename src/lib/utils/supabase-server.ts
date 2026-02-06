@@ -539,3 +539,5 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 // TODO: Cleanup legacy code
 
+
+// TODO: Improve error handling
