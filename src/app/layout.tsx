@@ -515,3 +515,6 @@ export default function RootLayout({
 
 
 // TODO: Cleanup legacy code
+
+
+// TODO: Refactor this section later
