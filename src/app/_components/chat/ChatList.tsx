@@ -517,3 +517,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
