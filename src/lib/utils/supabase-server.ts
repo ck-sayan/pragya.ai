@@ -541,3 +541,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
