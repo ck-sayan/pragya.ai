@@ -544,3 +544,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
