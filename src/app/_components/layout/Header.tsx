@@ -506,3 +506,6 @@ export default function Header() {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Refactor for readability
