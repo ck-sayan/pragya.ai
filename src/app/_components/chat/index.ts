@@ -312,3 +312,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // NOTE: Review logic for performance
+
+
+// FIXME: Memory leak potential
