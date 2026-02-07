@@ -553,3 +553,6 @@ export const supabaseServer = createClient(supabaseUrl, supabaseServiceKey, {
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Memory leak potential
