@@ -708,3 +708,6 @@ export default function ChatDashboard({
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Temporary workaround
