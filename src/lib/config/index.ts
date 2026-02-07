@@ -311,3 +311,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add documentation
+
+
+// TODO: Improve error handling
