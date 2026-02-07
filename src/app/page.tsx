@@ -802,3 +802,6 @@ export default function Home() {
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Review logic for performance
