@@ -521,3 +521,6 @@ export default function RootLayout({
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Refactor for readability
