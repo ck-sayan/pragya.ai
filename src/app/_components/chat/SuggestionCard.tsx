@@ -602,3 +602,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Add documentation
+
+
+// TODO: Cleanup legacy code
