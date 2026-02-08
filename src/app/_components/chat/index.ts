@@ -333,3 +333,6 @@ export { default as SuggestionCard } from './SuggestionCard';
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Optimization needed here
