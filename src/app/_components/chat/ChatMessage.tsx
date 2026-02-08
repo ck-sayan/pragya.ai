@@ -541,3 +541,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // FIXME: Memory leak potential
+
+
+// TODO: Cleanup legacy code
