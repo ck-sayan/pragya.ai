@@ -306,3 +306,6 @@ export { default as ClearChatModal } from './ClearChatModal';
 
 
 // TODO: Add more tests
+
+
+// FIXME: Memory leak potential
