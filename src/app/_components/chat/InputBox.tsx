@@ -604,3 +604,6 @@ export default function InputBox({
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability
