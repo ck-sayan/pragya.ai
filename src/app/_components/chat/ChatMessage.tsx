@@ -554,5 +554,3 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 // NOTE: Review logic for performance
 
-
-// TODO: Refactor this section later
