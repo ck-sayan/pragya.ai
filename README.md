@@ -32,7 +32,7 @@ All code, design, assets, and logic are **confidential**, **owned exclusively by
 
 ### ✅ **1. Smart AI Chat**
 - Smooth AI conversations  
-- “Thinking…” bot placeholder  
+- “Thinking...” bot placeholder  
 - Fast, responsive UI  
 - Gentle mental-wellness tone  
 
