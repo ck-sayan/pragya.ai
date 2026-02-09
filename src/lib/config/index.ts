@@ -341,3 +341,6 @@ export { supabase } from './supabase';
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
