@@ -521,3 +521,6 @@ export default function Header() {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Refactor this section later
