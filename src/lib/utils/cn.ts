@@ -334,3 +334,6 @@ export function cn(...inputs: ClassValue[]) {
 
 
 // TODO: Add documentation
+
+
+// TODO: Improve error handling
