@@ -356,3 +356,6 @@ export { supabase } from './supabase';
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Refactor for readability
