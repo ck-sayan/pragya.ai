@@ -565,3 +565,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Consider edge cases
+
+
+// TODO: Add documentation
