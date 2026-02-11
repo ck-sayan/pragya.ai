@@ -505,3 +505,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Temporary workaround
