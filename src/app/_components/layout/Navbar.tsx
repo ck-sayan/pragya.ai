@@ -613,3 +613,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Add documentation
