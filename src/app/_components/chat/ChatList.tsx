@@ -544,3 +544,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Review logic for performance
