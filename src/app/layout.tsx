@@ -563,3 +563,6 @@ export default function RootLayout({
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Review logic for performance
