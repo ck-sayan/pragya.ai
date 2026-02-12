@@ -371,3 +371,6 @@ export { supabase } from './supabase';
 
 
 // NOTE: Refactor for readability
+
+
+// TODO: Improve error handling
