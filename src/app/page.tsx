@@ -826,3 +826,6 @@ export default function Home() {
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Optimization needed here
