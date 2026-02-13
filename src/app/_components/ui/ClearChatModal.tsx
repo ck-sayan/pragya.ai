@@ -594,3 +594,6 @@ export default function ClearChatModal({
 
 
 // TODO: Add documentation
+
+
+// NOTE: Temporary workaround
