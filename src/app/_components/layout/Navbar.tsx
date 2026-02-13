@@ -619,3 +619,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Memory leak potential
