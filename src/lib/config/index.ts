@@ -377,3 +377,6 @@ export { supabase } from './supabase';
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
