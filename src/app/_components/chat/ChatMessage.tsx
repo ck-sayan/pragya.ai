@@ -577,3 +577,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // NOTE: Review logic for performance
+
+
+// FIXME: Potential edge case
