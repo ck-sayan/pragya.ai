@@ -523,3 +523,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Improve error handling
+
+
+// TODO: Refactor this section later
