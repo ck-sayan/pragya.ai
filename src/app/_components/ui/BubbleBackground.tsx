@@ -544,3 +544,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability
