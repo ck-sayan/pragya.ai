@@ -570,3 +570,6 @@ export default nextConfig;
 
 
 // FIXME: Potential edge case
+
+
+// NOTE: Review logic for performance
