@@ -340,3 +340,6 @@ export interface Message {
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Temporary workaround
