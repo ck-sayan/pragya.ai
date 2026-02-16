@@ -686,3 +686,6 @@ export async function DELETE(req: Request) {
 
 
 // NOTE: Temporary workaround
+
+
+// NOTE: Refactor for readability
