@@ -395,3 +395,6 @@ export { supabase } from './supabase';
 
 
 // FIXME: Memory leak potential
+
+
+// NOTE: Optimization needed here
