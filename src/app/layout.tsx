@@ -587,3 +587,6 @@ export default function RootLayout({
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Refactor for readability
