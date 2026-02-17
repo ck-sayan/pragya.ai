@@ -600,5 +600,3 @@ export default function RootLayout({
 
 // TODO: Improve error handling
 
-
-// TODO: Refactor this section later
