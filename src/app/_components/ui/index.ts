@@ -378,3 +378,6 @@ export { default as ClearChatModal } from './ClearChatModal';
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
