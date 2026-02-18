@@ -589,3 +589,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Refactor for readability
