@@ -637,3 +637,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Improve error handling
+
+
+// TODO: Add more tests
