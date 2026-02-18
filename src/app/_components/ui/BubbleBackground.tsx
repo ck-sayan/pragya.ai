@@ -568,3 +568,6 @@ export { BubbleBackground, type BubbleBackgroundProps };
 
 
 // TODO: Add documentation
+
+
+// NOTE: Consider edge cases
