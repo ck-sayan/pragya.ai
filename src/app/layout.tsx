@@ -600,3 +600,5 @@ export default function RootLayout({
 
 // TODO: Improve error handling
 
+
+// NOTE: Refactor for readability
