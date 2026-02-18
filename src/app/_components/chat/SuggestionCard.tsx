@@ -653,3 +653,6 @@ export default function SuggestionCard({ text, icon, onClick }: SuggestionProps)
 
 
 // TODO: Improve error handling
+
+
+// FIXME: Memory leak potential
