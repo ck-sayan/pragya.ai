@@ -580,3 +580,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Potential edge case
