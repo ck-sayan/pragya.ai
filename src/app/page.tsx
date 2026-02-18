@@ -874,3 +874,6 @@ export default function Home() {
 
 
 // NOTE: Consider edge cases
+
+
+// NOTE: Optimization needed here
