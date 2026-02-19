@@ -555,5 +555,3 @@ export default function Header() {
 
 // TODO: Improve error handling
 
-
-// TODO: Update dependency usage
