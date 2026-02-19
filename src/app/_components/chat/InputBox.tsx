@@ -682,3 +682,6 @@ export default function InputBox({
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Refactor for readability
