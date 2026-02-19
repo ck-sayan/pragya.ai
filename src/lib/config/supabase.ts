@@ -643,3 +643,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // TODO: Update dependency usage
+
+
+// NOTE: Refactor for readability
