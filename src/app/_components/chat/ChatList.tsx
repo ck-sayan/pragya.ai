@@ -622,3 +622,6 @@ export default function ChatList({ messages }: ChatProps) {
 
 
 // NOTE: Review logic for performance
+
+
+// NOTE: Optimization needed here
