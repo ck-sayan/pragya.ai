@@ -658,3 +658,6 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 
 // NOTE: Optimization needed here
+
+
+// NOTE: Consider edge cases
