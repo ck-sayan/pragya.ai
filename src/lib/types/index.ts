@@ -379,3 +379,6 @@ export interface Message {
 
 
 // NOTE: Temporary workaround
+
+
+// TODO: Add documentation
