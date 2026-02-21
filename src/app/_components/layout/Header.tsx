@@ -566,3 +566,6 @@ export default function Header() {
 
 
 // NOTE: Refactor for readability
+
+
+// FIXME: Memory leak potential
