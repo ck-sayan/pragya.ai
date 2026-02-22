@@ -690,3 +690,6 @@ export default function ClearChatModal({
 
 
 // TODO: Cleanup legacy code
+
+
+// NOTE: Review logic for performance
