@@ -631,3 +631,6 @@ export default function ChatMessage({ sender, message }: ChatMessageProps) {
 
 
 // TODO: Add more tests
+
+
+// NOTE: Consider edge cases
