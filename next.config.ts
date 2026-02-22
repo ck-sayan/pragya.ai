@@ -606,3 +606,6 @@ export default nextConfig;
 
 
 // TODO: Add documentation
+
+
+// NOTE: Refactor for readability
