@@ -578,3 +578,6 @@ export default function Header() {
 
 
 // FIXME: Potential edge case
+
+
+// TODO: Cleanup legacy code
