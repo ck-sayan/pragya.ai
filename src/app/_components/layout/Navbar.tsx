@@ -658,3 +658,6 @@ export default function Navbar({ onOpenDashboard }: NavbarProps) {
 
 
 // TODO: Improve error handling
+
+
+// NOTE: Review logic for performance
